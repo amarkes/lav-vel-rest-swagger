@@ -36,6 +36,63 @@
                         "description": "Internal Server Error"
                     }
                 }
+            },
+            "post": {
+                "summary": "List with  id",
+                "operationId": "getListPostID",
+                "parameters": [
+                    {
+                        "name": "body",
+                        "in": "body",
+                        "required": true,
+                        "schema": {
+                            "required": [
+                                "name",
+                                "status"
+                            ],
+                            "properties": {
+                                "name": {
+                                    "type": "string",
+                                    "maximum": 64
+                                },
+                                "status": {
+                                    "type": "string",
+                                    "default": "A",
+                                    "enum": [
+                                        "A",
+                                        "I"
+                                    ]
+                                }
+                            }
+                        }
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "description": "successful operation"
+                    },
+                    "201": {
+                        "description": "Created"
+                    },
+                    "400": {
+                        "description": "Bad Request"
+                    },
+                    "401": {
+                        "description": "Unauthorized"
+                    },
+                    "404": {
+                        "description": "Not Found"
+                    },
+                    "405": {
+                        "description": "Method Not Allowed"
+                    },
+                    "422": {
+                        "description": "Unprocessable Entity"
+                    },
+                    "500": {
+                        "description": "Internal Server Error"
+                    }
+                }
             }
         },
         "/list/{id}": {
