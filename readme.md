@@ -8,6 +8,8 @@ in folde the project run in shell
 php artisan l5-swagger:generate
 ```
 
+url http://laravel-swagger-api-amarkes.c9users.io/api/documentation#!/default/getListPostID
+
 
 # Laravel PHP Framework
 
