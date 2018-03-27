@@ -1,0 +1,25 @@
+[27-Mar-2018 00:34:18 UTC] PHP Parse error:  syntax error, unexpected 'List' (T_LIST), expecting identifier (T_STRING) in /home/ubuntu/workspace/laravel-api/app/Http/Controllers/ListController.php on line 4
+[27-Mar-2018 00:34:18 UTC] PHP Stack trace:
+[27-Mar-2018 00:34:18 UTC] PHP   1. {main}() /home/ubuntu/workspace/laravel-api/public/index.php:0
+[27-Mar-2018 00:34:18 UTC] PHP   2. Illuminate\Foundation\Http\Kernel->handle() /home/ubuntu/workspace/laravel-api/public/index.php:54
+[27-Mar-2018 00:34:18 UTC] PHP   3. Illuminate\Foundation\Http\Kernel->sendRequestThroughRouter() /home/ubuntu/workspace/laravel-api/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php:99
+[27-Mar-2018 00:34:18 UTC] PHP   4. Illuminate\Pipeline\Pipeline->then() /home/ubuntu/workspace/laravel-api/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php:132
+[27-Mar-2018 00:34:18 UTC] PHP   5. call_user_func:{/home/ubuntu/workspace/laravel-api/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php:103}() /home/ubuntu/workspace/laravel-api/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php:103
+[27-Mar-2018 00:34:18 UTC] PHP   6. Illuminate\Routing\Pipeline->Illuminate\Routing\{closure}() /home/ubuntu/workspace/laravel-api/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php:103
+[27-Mar-2018 00:34:18 UTC] PHP   7. call_user_func:{/home/ubuntu/workspace/laravel-api/vendor/laravel/framework/src/Illuminate/Routing/Pipeline.php:32}() /home/ubuntu/workspace/laravel-api/vendor/laravel/framework/src/Illuminate/Routing/Pipeline.php:32
+[27-Mar-2018 00:34:18 UTC] PHP   8. Illuminate\Pipeline\Pipeline->Illuminate\Pipeline\{closure}() /home/ubuntu/workspace/laravel-api/vendor/laravel/framework/src/Illuminate/Routing/Pipeline.php:32
+[27-Mar-2018 00:34:18 UTC] PHP   9. call_user_func_array:{/home/ubuntu/workspace/laravel-api/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php:136}() /home/ubuntu/workspace/laravel-api/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php:136
+[27-Mar-2018 00:34:18 UTC] PHP  10. Illuminate\Foundation\Http\Middleware\CheckForMaintenanceMode->handle() /home/ubuntu/workspace/laravel-api/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php:136
+[27-Mar-2018 00:34:18 UTC] PHP  11. Illuminate\Routing\Pipeline->Illuminate\Routing\{closure}() /home/ubuntu/workspace/laravel-api/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/CheckForMaintenanceMode.php:44
+[27-Mar-2018 00:34:18 UTC] PHP  12. call_user_func:{/home/ubuntu/workspace/laravel-api/vendor/laravel/framework/src/Illuminate/Routing/Pipeline.php:52}() /home/ubuntu/workspace/laravel-api/vendor/laravel/framework/src/Illuminate/Routing/Pipeline.php:52
+[27-Mar-2018 00:34:18 UTC] PHP  13. Illuminate\Foundation\Http\Kernel->Illuminate\Foundation\Http\{closure}() /home/ubuntu/workspace/laravel-api/vendor/laravel/framework/src/Illuminate/Routing/Pipeline.php:52
+[27-Mar-2018 00:34:18 UTC] PHP  14. Illuminate\Routing\Router->dispatch() /home/ubuntu/workspace/laravel-api/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php:246
+[27-Mar-2018 00:34:18 UTC] PHP  15. Illuminate\Routing\Router->dispatchToRoute() /home/ubuntu/workspace/laravel-api/vendor/laravel/framework/src/Illuminate/Routing/Router.php:675
+[27-Mar-2018 00:34:18 UTC] PHP  16. Illuminate\Routing\Router->findRoute() /home/ubuntu/workspace/laravel-api/vendor/laravel/framework/src/Illuminate/Routing/Router.php:691
+[27-Mar-2018 00:34:18 UTC] PHP  17. Illuminate\Routing\Router->substituteBindings() /home/ubuntu/workspace/laravel-api/vendor/laravel/framework/src/Illuminate/Routing/Router.php:825
+[27-Mar-2018 00:34:18 UTC] PHP  18. Illuminate\Routing\Router->substituteImplicitBindings() /home/ubuntu/workspace/laravel-api/vendor/laravel/framework/src/Illuminate/Routing/Router.php:842
+[27-Mar-2018 00:34:18 UTC] PHP  19. Illuminate\Routing\Route->signatureParameters() /home/ubuntu/workspace/laravel-api/vendor/laravel/framework/src/Illuminate/Routing/Router.php:857
+[27-Mar-2018 00:34:18 UTC] PHP  20. ReflectionMethod->__construct() /home/ubuntu/workspace/laravel-api/vendor/laravel/framework/src/Illuminate/Routing/Route.php:280
+[27-Mar-2018 00:34:18 UTC] PHP  21. spl_autoload_call() /home/ubuntu/workspace/laravel-api/vendor/laravel/framework/src/Illuminate/Routing/Route.php:280
+[27-Mar-2018 00:34:18 UTC] PHP  22. Composer\Autoload\ClassLoader->loadClass() /home/ubuntu/workspace/laravel-api/vendor/laravel/framework/src/Illuminate/Routing/Route.php:280
+[27-Mar-2018 00:34:18 UTC] PHP  23. Composer\Autoload\includeFile() /home/ubuntu/workspace/laravel-api/vendor/composer/ClassLoader.php:322
