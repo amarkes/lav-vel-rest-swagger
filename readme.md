@@ -1,3 +1,14 @@
+# Run Swagger
+
+### Genarate
+
+in folde the project run in shell
+
+```sh
+php artisan l5-swagger:generate
+```
+
+
 # Laravel PHP Framework
 
 [![Build Status](https://travis-ci.org/laravel/framework.svg)](https://travis-ci.org/laravel/framework)
